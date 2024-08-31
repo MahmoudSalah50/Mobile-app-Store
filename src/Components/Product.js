@@ -6,7 +6,7 @@ import "../pagescss/Product.css"
 const Product = () => {
   const cardItem = (item) => {
     return (
-      <div className="card my-2 py-4 card-product  " style={{ width: "18rem" }} key={item.id}>
+      <div className="card my-5 py-4 card-product  " style={{ width: "18rem" }} key={item.id}>
         <img src={item.img} className="card-img-top" alt={item.title} />
         <div className="card-body text-center">
           <h5 className="card-title">{item.title}</h5>
