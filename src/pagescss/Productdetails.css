@@ -1,0 +1,8 @@
+.product img{
+    transition: all 0.5s ease;
+    border-radius: 40px;
+}
+.product img:hover{
+    transform: scale(1.1);
+ 
+}

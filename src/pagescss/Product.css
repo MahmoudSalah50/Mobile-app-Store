@@ -1,0 +1,15 @@
+.card {
+    border: none !important;
+    transition: all 0.5s ease; 
+}
+
+.card-product img {
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+}
+
+.card:hover {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.1);
+}
